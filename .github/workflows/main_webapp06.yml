@@ -33,7 +33,7 @@ jobs:
 
       - name: Zip artifact for deployment
         run: zip -r release.zip ./*
-        working-directory: ./webapp06
+        working-directory: ./myapps
 
       - name: Upload artifact for deployment
         uses: actions/upload-artifact@v4
